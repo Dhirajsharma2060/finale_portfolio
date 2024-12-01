@@ -72,15 +72,19 @@ export const education: Education[] = [
 export const virtualExperiences: VirtualExperience[] = [
   {
     name: "Goldman Sachs",
-    url: "" // Add URL when available
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_i7cHGBDPkF39SmWCS_1690438177021_completion_certificate.pdf" // Add URL when available
   },
   {
     name: "Accenture UK",
-    url: "" // Add URL when available
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20UK/3xnZEj9kfpoQKW885_Accenture%20UK_i7cHGBDPkF39SmWCS_1692023698326_completion_certificate.pdf" // Add URL when available
   },
   {
     name: "Mastercard (Cybersecurity)",
-    url: "" // Add URL when available
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/mastercard/vcKAB5yYAgvemepGQ_Mastercard_i7cHGBDPkF39SmWCS_1690297502020_completion_certificate.pdf" // Add URL when available
+  },
+  {
+    name: "AWS(Solutions Architecture)",
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/AWS/kkE9HyeNcw6rwCRGw_AWS%20APAC_i7cHGBDPkF39SmWCS_1692024254442_completion_certificate.pdf" // Add URL when available
   }
 ];
 
@@ -89,23 +93,23 @@ export const certifications: Certification[] = [
     name: "Develop GenAI Apps with Gemini and Streamlit",
     issuer: "Google Cloud",
     date: "2024",
-    url: "", // Add URL when available
+    url: "https://www.credly.com/badges/335aaa94-5c45-4f07-8185-42aefe9b8727/linked_in_profile", // Add URL when available
     badgeUrl: "" // Add badge image URL when available
   },
   {
     name: "AWS Academy Graduate - Cloud Introduction",
     issuer: "Amazon Web Services",
     date: "2023",
-    url: "", // Add URL when available
+    url: "https://www.credly.com/badges/847a0ed8-3313-4a04-90e1-0c5bc6e58bd2/public_url", // Add URL when available
     badgeUrl: "" // Add badge image URL when available
   },
-  {
-    name: "Google Cloud's Career Readiness Associate Cloud Engineer Track",
-    issuer: "Google Cloud",
-    date: "2023",
-    url: "", // Add URL when available
-    badgeUrl: "" // Add badge image URL when available
-  }
+  // {
+    // name: "Google Cloud's Career Readiness Associate Cloud Engineer Track",
+    // issuer: "Google Cloud",
+    // date: "2023",
+    // url: "", // Add URL when available
+    // badgeUrl: "" // Add badge image URL when available
+  // }
 ];
 
 export const socialLinks: SocialLink[] = [
@@ -118,6 +122,12 @@ export const socialLinks: SocialLink[] = [
     platform: "GitHub",
     url: "https://github.com/Dhirajsharma2060",
     icon: "github"
+  },
+  {
+    platform: "Google Cloud",
+    url: "https://www.cloudskillsboost.google/public_profiles/43fb756a-81ed-4de3-a828-2e24c9386137",
+    icon: "cloud",
+    customIcon: true
   }
 ];
 

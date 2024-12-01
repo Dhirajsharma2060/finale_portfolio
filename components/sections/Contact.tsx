@@ -1,17 +1,30 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
+import { CloudIcon } from "@/components/icons/cloud-icon";
 import { contactInfo, socialLinks } from "@/lib/data";
+import { Loader } from "@/components/ui/loader";
 
 export default function Contact() {
+  const [isLoading, setIsLoading] = useState(true);
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <Loader />;
+  }
 
   return (
     <section id="contact" className="py-20 bg-muted/50">
@@ -52,18 +65,27 @@ export default function Contact() {
             <Card className="p-6">
               <h3 className="text-xl font-semibold mb-6">Social Links</h3>
               <div className="flex flex-col gap-4">
-                <Button variant="outline" className="w-full justify-start" asChild>
-                  <a href={socialLinks[0].url} target="_blank" rel="noopener noreferrer">
-                    <Linkedin className="w-5 h-5 mr-3" />
-                    LinkedIn Profile
-                  </a>
-                </Button>
-                <Button variant="outline" className="w-full justify-start" asChild>
-                  <a href={socialLinks[1].url} target="_blank" rel="noopener noreferrer">
-                    <Github className="w-5 h-5 mr-3" />
-                    GitHub Profile
-                  </a>
-                </Button>
+                {socialLinks.map((link, index) => (
+                  <Button
+                    key={index}
+                    variant="outline"
+                    className="w-full justify-start hover-social"
+                    asChild
+                  >
+                    <a href={link.url} target="_blank" rel="noopener noreferrer">
+                      {link.customIcon ? (
+                        link.icon === 'cloud' && <CloudIcon className="w-5 h-5 mr-3" />
+                      ) : (
+                        link.icon === 'linkedin' ? (
+                          <Linkedin className="w-5 h-5 mr-3" />
+                        ) : (
+                          <Github className="w-5 h-5 mr-3" />
+                        )
+                      )}
+                      {link.platform}
+                    </a>
+                  </Button>
+                ))}
               </div>
             </Card>
           </div>

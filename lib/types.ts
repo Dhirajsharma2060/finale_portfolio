@@ -38,6 +38,7 @@ export interface SocialLink {
   platform: string;
   url: string;
   icon: string;
+  customIcon?: boolean;
 }
 
 export interface ContactInfo {
