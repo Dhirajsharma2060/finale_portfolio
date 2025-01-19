@@ -3,6 +3,7 @@ import { Education, Project, Skill, Certification, SocialLink, ContactInfo, Virt
 export const skills: Skill[] = [
   { name: "Python", category: "Programming" },
   { name: "JavaScript", category: "Programming" },
+  { name: "Golang", category: "Programming" },
   { name: "Next.js", category: "Web Technologies" },
   { name: "Node.js", category: "Web Technologies" },
   { name: "Express.js", category: "Backend" },
@@ -38,19 +39,47 @@ export const projects: Project[] = [
     description: "Advanced QR Code Generator with customization options",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     demoUrl: "https://qr-code-generator-beta-ruddy.vercel.app/",
-    githubUrl: "https://github.com/Dhirajsharma2060/qr-code-generator"
+    githubUrl: "https://github.com/Dhirajsharma2060/qr-code-generator",
+    achievements:[
+      "Custom QR Code Generator in Next for URLs and emails with customizable colors and logos.",
+      "Supports PNG and SVG downloads for branding needs.",
+      "Validates URLs and emails for professional accuracy.",
+      "QR code usage will rise over 80% in five years, with the market growing 16.3% annually, meeting demand for customizable solutions."
+    ]
   },
   {
     title: "Git Clone Implementation",
     description: "Python-based implementation of core Git functionalities",
     technologies: ["Python", "System Programming"],
-    githubUrl: "https://github.com/Dhirajsharma2060/codecrafters-git-python"
+    githubUrl: "https://github.com/Dhirajsharma2060/codecrafters-git-python",
+    achievements:[
+      "Created necessary Git directories and files such as .git, objects, refs, and HEAD.",
+      "Implemented functions to read and write Git objects (blobs, trees, commits) using SHA-1 hashes and Zlib compression.",
+      "Fetched and wrote refs from a remote server, storing them in the local Git directory.",
+      "Processed pack files and added object decompression and storage.",
+      "Reconstructed the file tree from the fetched objects and wrote files to the local directory."
+    ]
   },
   {
     title:"Golang Slot Machine",
     description:"A simple slot machine game implemented in Golang",
     technologies:["Golang"],
-    githubUrl:"https://github.com/Dhirajsharma2060/golang_tim_slot_-project"
+    githubUrl:"https://github.com/Dhirajsharma2060/golang_tim_slot_-project",
+    achievements:[
+
+    ]
+  },
+  {
+    title: "Online Voting System",
+    description: "Developed a voting website with face recognition as authentication",
+    technologies: ["FastAPI", "HTML", "CSS", "React.js", "PostgreSQL", "OpenCV"],
+    githubUrl: "https://github.com/Dhirajsharma2060/timepasspublic/tree/fix-secrets-issue",
+    achievements: [
+      "Implemented real-time face recognition for authentication",
+      "Utilized FastAPI for efficient API creation and testing",
+      "Designed the frontend using HTML, CSS, and React.js",
+      "Used PostgreSQL as the database"
+    ]
   }
 ];
 
@@ -116,12 +145,19 @@ export const certifications: Certification[] = [
     // url: "", // Add URL when available
     // badgeUrl: "" // Add badge image URL when available
   // }
+  {
+    name: "AWS Academy Graduate - AWS Academy Machine Learning Foundations",
+    date: "2024",
+    url: "https://www.credly.com/badges/f8eb5e32-796d-4122-9bd0-0e90799a8027/linked_in_profile",
+    badgeUrl: "",
+    issuer: ""
+  }
 ];
 
 export const socialLinks: SocialLink[] = [
   {
     platform: "LinkedIn",
-    url: "https://linkedin.com/in/dhiraj-sharma-789381295",
+    url: "https://linkedin.com/in/dhirajsharma2060",
     icon: "linkedin"
   },
   {
