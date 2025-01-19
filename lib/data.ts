@@ -45,6 +45,12 @@ export const projects: Project[] = [
     description: "Python-based implementation of core Git functionalities",
     technologies: ["Python", "System Programming"],
     githubUrl: "https://github.com/Dhirajsharma2060/codecrafters-git-python"
+  },
+  {
+    title:"Golang Slot Machine",
+    description:"A simple slot machine game implemented in Golang",
+    technologies:["Golang"],
+    githubUrl:"https://github.com/Dhirajsharma2060/golang_tim_slot_-project"
   }
 ];
 
