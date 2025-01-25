@@ -28,6 +28,7 @@ export const projects: Project[] = [
     description: "AI-powered asthma prediction system using machine learning models",
     technologies: ["Python", "scikit-learn", "Flask"],
     demoUrl: "https://flaskmodel-4.onrender.com/",
+    githubUrl: "https://flaskmodel-4.onrender.com/",
     achievements: [
       "92% prediction accuracy",
       "15% reduction in consultation time",
@@ -66,7 +67,9 @@ export const projects: Project[] = [
     technologies:["Golang"],
     githubUrl:"https://github.com/Dhirajsharma2060/golang_tim_slot_-project",
     achievements:[
-
+      "Implemented a simple slot machine game in Golang",
+      "Learned about Golang's syntax and features",
+      "Used Go modules for dependency management"
     ]
   },
   {
@@ -80,6 +83,14 @@ export const projects: Project[] = [
       "Designed the frontend using HTML, CSS, and React.js",
       "Used PostgreSQL as the database"
     ]
+  },
+  {
+    title: "Blog App",
+    description: "Created a blog application with CRUD operations",
+    technologies: ["Fastapi", "ReactJs", "Render.com", "MongoDB"],
+    githubUrl: "https://github.com/Dhirajsharma2060/assignment_2",
+    demoUrl: "https://assignment-2-h43j.onrender.com",
+
   }
 ];
 
