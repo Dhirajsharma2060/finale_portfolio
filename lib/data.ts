@@ -36,6 +36,19 @@ export const projects: Project[] = [
     ]
   },
   {
+    title: "BazaarWise India",
+    description: "A customer segmentation and recommendation system using K-Means clustering, tailored for the Indian market.",
+    technologies: ["FastAPI", "Streamlit", "Render.com", "Scikit-learn", "Matplotlib"],
+    githubUrl: "https://github.com/Dhirajsharma2060/customer_segmentation",
+    demoUrl: "https://bazaarwise.onrender.com",
+    achievements: [
+      "Implemented K-Means clustering for customer segmentation",
+      "Created a dashboard with Streamlit for User Interface",
+      "Deployed the model on Render.com for public access",
+      "Visualized the clusters using Matplotlib"
+    ]  
+  },
+  {
     title: "QRTap",
     description: "Advanced QR Code Generator with customization options",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
@@ -46,6 +59,19 @@ export const projects: Project[] = [
       "Supports PNG and SVG downloads for branding needs.",
       "Validates URLs and emails for professional accuracy.",
       "QR code usage will rise over 80% in five years, with the market growing 16.3% annually, meeting demand for customizable solutions."
+    ]
+  },
+  {
+    title: "HTTP Server with File Handling",
+    description: "A lightweight multi-threaded HTTP server supporting GET and POST requests, including file uploads and retrieval.",
+    technologies: ["Python", "Socket Programming", "Multithreading", "Gzip Compression", "Filesystem Operations"],
+    githubUrl: "https://github.com/yourusername/http-server",
+    // demoUrl: "N/A" // Update if a live demo is available
+    achievements: [
+      "Implemented a multi-threaded HTTP server in Python",
+      "Supported GET and POST requests for file uploads and retrieval",
+      "Utilized Gzip compression for efficient data transfer",
+      "Handled filesystem operations for file management"
     ]
   },
   {
@@ -73,18 +99,6 @@ export const projects: Project[] = [
     ]
   },
   {
-    title: "Online Voting System",
-    description: "Developed a voting website with face recognition as authentication",
-    technologies: ["FastAPI", "HTML", "CSS", "React.js", "PostgreSQL", "OpenCV"],
-    githubUrl: "https://github.com/Dhirajsharma2060/timepasspublic/tree/fix-secrets-issue",
-    achievements: [
-      "Implemented real-time face recognition for authentication",
-      "Utilized FastAPI for efficient API creation and testing",
-      "Designed the frontend using HTML, CSS, and React.js",
-      "Used PostgreSQL as the database"
-    ]
-  },
-  {
       title: "Land Registry DApp",
       description: "A decentralized application for secure and transparent land registration using blockchain technology.",
       technologies: ["Solidity", "Ethereum", "Web3.js", "Truffle", "Ganache", "MetaMask"],
@@ -105,32 +119,6 @@ export const projects: Project[] = [
   //   demoUrl: "https://assignment-2-h43j.onrender.com",
 
   // }
-  {
-    title: "BazaarWise India",
-    description: "A customer segmentation and recommendation system using K-Means clustering, tailored for the Indian market.",
-    technologies: ["FastAPI", "Streamlit", "Render.com", "Scikit-learn", "Matplotlib"],
-    githubUrl: "https://github.com/Dhirajsharma2060/customer_segmentation",
-    demoUrl: "https://bazaarwise.onrender.com",
-    achievements: [
-      "Implemented K-Means clustering for customer segmentation",
-      "Created a dashboard with Streamlit for User Interface",
-      "Deployed the model on Render.com for public access",
-      "Visualized the clusters using Matplotlib"
-    ]  
-  },
-  {
-      title: "HTTP Server with File Handling",
-      description: "A lightweight multi-threaded HTTP server supporting GET and POST requests, including file uploads and retrieval.",
-      technologies: ["Python", "Socket Programming", "Multithreading", "Gzip Compression", "Filesystem Operations"],
-      githubUrl: "https://github.com/yourusername/http-server",
-      // demoUrl: "N/A" // Update if a live demo is available
-      achievements: [
-        "Implemented a multi-threaded HTTP server in Python",
-        "Supported GET and POST requests for file uploads and retrieval",
-        "Utilized Gzip compression for efficient data transfer",
-        "Handled filesystem operations for file management"
-      ]
-  },
 ];
 
 export const education: Education[] = [
