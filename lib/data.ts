@@ -62,6 +62,18 @@ export const projects: Project[] = [
     ]
   },
   {
+    title: "Online Voting System",
+    description: "Developed a voting website with face recognition as authentication",
+    technologies: ["FastAPI", "HTML", "CSS", "React.js", "PostgreSQL", "OpenCV"],
+    githubUrl: "https://github.com/Dhirajsharma2060/timepasspublic/tree/fix-secrets-issue",
+    achievements: [
+      "Implemented real-time face recognition for authentication",
+      "Utilized FastAPI for efficient API creation and testing",
+      "Designed the frontend using HTML, CSS, and React.js",
+      "Used PostgreSQL as the database"
+    ]
+  },
+  {
     title: "HTTP Server with File Handling",
     description: "A lightweight multi-threaded HTTP server supporting GET and POST requests, including file uploads and retrieval.",
     technologies: ["Python", "Socket Programming", "Multithreading", "Gzip Compression", "Filesystem Operations"],
