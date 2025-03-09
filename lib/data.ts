@@ -85,12 +85,38 @@ export const projects: Project[] = [
     ]
   },
   {
-    title: "Blog App",
-    description: "Created a blog application with CRUD operations",
-    technologies: ["Fastapi", "ReactJs", "Render.com", "MongoDB"],
-    githubUrl: "https://github.com/Dhirajsharma2060/assignment_2",
-    demoUrl: "https://assignment-2-h43j.onrender.com",
+      title: "Land Registry DApp",
+      description: "A decentralized application for secure and transparent land registration using blockchain technology.",
+      technologies: ["Solidity", "Ethereum", "Web3.js", "Truffle", "Ganache", "MetaMask"],
+      githubUrl: "https://github.com/Dhirajsharma2060/LandRegistry",
+      demoUrl: "N/A" ,// Update if a live demo is available,
+      achievements: [
+        "Implemented a decentralized application for land registration",
+        "Utilized Solidity for smart contract development",
+        "Deployed the application on local Ethereum networks using Truffle and Ganache",
+        "Integrated Web3.js for interaction with the blockchain"
+      ]
+    },
+  // {
+  //   title: "Blog App",
+  //   description: "Created a blog application with CRUD operations",
+  //   technologies: ["Fastapi", "ReactJs", "Render.com", "MongoDB"],
+  //   githubUrl: "https://github.com/Dhirajsharma2060/assignment_2",
+  //   demoUrl: "https://assignment-2-h43j.onrender.com",
 
+  // }
+  {
+    title: "BazaarWise India",
+    description: "A customer segmentation and recommendation system using K-Means clustering, tailored for the Indian market.",
+    technologies: ["FastAPI", "Streamlit", "Render.com", "Scikit-learn", "Matplotlib"],
+    githubUrl: "https://github.com/Dhirajsharma2060/customer_segmentation",
+    demoUrl: "https://bazaarwise.onrender.com",
+    achievements: [
+      "Implemented K-Means clustering for customer segmentation",
+      "Created a dashboard with Streamlit for User Interface",
+      "Deployed the model on Render.com for public access",
+      "Visualized the clusters using Matplotlib"
+    ]  
   }
 ];
 
