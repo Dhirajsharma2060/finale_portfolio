@@ -89,7 +89,7 @@ export const projects: Project[] = [
       description: "A decentralized application for secure and transparent land registration using blockchain technology.",
       technologies: ["Solidity", "Ethereum", "Web3.js", "Truffle", "Ganache", "MetaMask"],
       githubUrl: "https://github.com/Dhirajsharma2060/LandRegistry",
-      demoUrl: "N/A" ,// Update if a live demo is available,
+      // demoUrl: "N/A" ,// Update if a live demo is available,
       achievements: [
         "Implemented a decentralized application for land registration",
         "Utilized Solidity for smart contract development",
@@ -117,7 +117,20 @@ export const projects: Project[] = [
       "Deployed the model on Render.com for public access",
       "Visualized the clusters using Matplotlib"
     ]  
-  }
+  },
+  {
+      title: "HTTP Server with File Handling",
+      description: "A lightweight multi-threaded HTTP server supporting GET and POST requests, including file uploads and retrieval.",
+      technologies: ["Python", "Socket Programming", "Multithreading", "Gzip Compression", "Filesystem Operations"],
+      githubUrl: "https://github.com/yourusername/http-server",
+      // demoUrl: "N/A" // Update if a live demo is available
+      achievements: [
+        "Implemented a multi-threaded HTTP server in Python",
+        "Supported GET and POST requests for file uploads and retrieval",
+        "Utilized Gzip compression for efficient data transfer",
+        "Handled filesystem operations for file management"
+      ]
+  },
 ];
 
 export const education: Education[] = [
