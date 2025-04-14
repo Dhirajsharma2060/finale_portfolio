@@ -182,6 +182,12 @@ export const certifications: Certification[] = [
     badgeUrl: "" // Add badge image URL when available
   },
   {
+    name:"Google Cloud career readiness Associate Cloud Engineer track",
+    issuer: "Google Cloud",
+    date: "2024",
+    url: "https://drive.google.com/file/d/1A2p_dh0WjtZmpw7vBbE5G4MstY7O4XEv/view?usp=sharing", // Add URL when available
+  },
+  {
     name: "AWS Academy Graduate - Cloud Introduction",
     issuer: "Amazon Web Services",
     date: "2023",
