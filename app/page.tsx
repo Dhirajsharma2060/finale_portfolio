@@ -8,6 +8,7 @@ import Experience from "@/components/sections/Experience";
 import Contact from "@/components/sections/Contact";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
+import Blogs from "@/components/sections/Blogs";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Experience />
+      <Blogs /> {/* Add Blogs Section */}
       <Contact />
       <Footer />
     </main>

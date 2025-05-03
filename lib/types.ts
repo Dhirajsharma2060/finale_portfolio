@@ -46,3 +46,15 @@ export interface ContactInfo {
   phone: string;
   location?: string;
 }
+
+export interface  Blog{
+  title: string;
+  description: string;
+  date: string;
+  content: string;
+  media?:{
+    images?: string[];
+    videos?: string[];
+    links?: {label : string; url: string}[];
+  };
+}

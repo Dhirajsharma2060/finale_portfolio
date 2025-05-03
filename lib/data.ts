@@ -1,4 +1,5 @@
 import { Education, Project, Skill, Certification, SocialLink, ContactInfo, VirtualExperience } from "./types";
+import { blogs } from "./blogs"; // Import blogs from the separate file
 
 export const skills: Skill[] = [
   { name: "Python", category: "Programming" },
@@ -234,3 +235,5 @@ export const contactInfo: ContactInfo = {
   phone: "+91 9987368137",
   location: "Mumbai, India"
 };
+
+export { blogs }; // Export blogs from data.ts
