@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     title: "AsthmaCare Bot",
     description: "AI-powered asthma prediction system using machine learning models",
-    technologies: ["Python", "scikit-learn", "Flask"],
+    technologies: ["Python", "scikit-learn", "Flask","React.js","MongoDB","Vercel","Render"],
     demoUrl: "https://asthama-care.vercel.app/",
     githubUrl: "https://github.com/Dhirajsharma2060/AsthamaCare",
     publicationUrl: "http://doi.org/10.55041/IJSREM37837",
@@ -41,7 +41,7 @@ export const projects: Project[] = [
   {
     title: "CodePulse ",
     description: "A real-time collaborative coding platform with code execution, video calling, and multi-language support.",
-    technologies: ["React", "Node.js", "WebSockets", "WebRTC", "Judge0", "Vercel"],
+    technologies: ["React", "Node.js", "WebSockets", "WebRTC", "Judge0", "Vercel","Express.js","Render"],
     githubUrl: "https://github.com/Aryanshah13/CodePulse",
     demoUrl: "https://code-pulse-one.vercel.app/", // Uncomment if you'd like to show live demo
     publicationUrl: "http://doi.one/10.1729/Journal.44336",
@@ -58,7 +58,7 @@ export const projects: Project[] = [
   {
     title: "BazaarWise India",
     description: "A customer segmentation and recommendation system using K-Means clustering, tailored for the Indian market.",
-    technologies: ["FastAPI", "Streamlit", "Render.com", "Scikit-learn", "Matplotlib"],
+    technologies: ["FastAPI", "Streamlit", "Render.com", "Scikit-learn", "Matplotlib","Render"],
     githubUrl: "https://github.com/Dhirajsharma2060/customer_segmentation",
     demoUrl: "https://bazaarwise.onrender.com",
     achievements: [
@@ -71,7 +71,7 @@ export const projects: Project[] = [
   {
     title: "QRTap",
     description: "Advanced QR Code Generator with customization options",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS","React.js","Vercel"],
     demoUrl: "https://qr-code-generator-beta-ruddy.vercel.app/",
     githubUrl: "https://github.com/Dhirajsharma2060/qr-code-generator",
     achievements:[
