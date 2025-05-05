@@ -28,8 +28,8 @@ export const projects: Project[] = [
     title: "AsthmaCare Bot",
     description: "AI-powered asthma prediction system using machine learning models",
     technologies: ["Python", "scikit-learn", "Flask"],
-    demoUrl: "https://flaskmodel-4.onrender.com/",
-    githubUrl: "https://flaskmodel-4.onrender.com/",
+    demoUrl: "https://asthama-care.vercel.app/",
+    githubUrl: "https://github.com/Dhirajsharma2060/AsthamaCare",
     publicationUrl: "http://doi.org/10.55041/IJSREM37837",
     achievements: [
       "92% prediction accuracy",
