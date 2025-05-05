@@ -30,12 +30,31 @@ export const projects: Project[] = [
     technologies: ["Python", "scikit-learn", "Flask"],
     demoUrl: "https://flaskmodel-4.onrender.com/",
     githubUrl: "https://flaskmodel-4.onrender.com/",
+    publicationUrl: "http://doi.org/10.55041/IJSREM37837",
     achievements: [
       "92% prediction accuracy",
       "15% reduction in consultation time",
-      "Implemented Gradient Boosting classification"
+      "Implemented Gradient Boosting classification",
+      "Pubished in IJSREM Volume 4 | Issue 2 | March 2025 | Page 1-7 | http://doi.org/10.55041/IJSREM37837",
     ]
   },
+  {
+    title: "CodePulse ",
+    description: "A real-time collaborative coding platform with code execution, video calling, and multi-language support.",
+    technologies: ["React", "Node.js", "WebSockets", "WebRTC", "Judge0", "Vercel"],
+    githubUrl: "https://github.com/Aryanshah13/CodePulse",
+    demoUrl: "https://code-pulse-one.vercel.app/", // Uncomment if you'd like to show live demo
+    publicationUrl: "http://doi.one/10.1729/Journal.44336",
+    achievements: [
+      "Built a full-stack application for collaborative coding sessions",
+      "Integrated Judge0 API for real-time code execution and judging",
+      "Implemented WebSockets for live code sync and WebRTC for video calls",
+      "Enabled secure, room-based pair programming and interviews",
+      "Deployed the application on Vercel for global access",
+      "Published on International Journal Of Creative Research Thoughts(IJCRT) Volume 13 | Issue 3 | March 2025 | j100-j107 |http://doi.one/10.1729/Journal.44336"
+    ]
+  },
+  
   {
     title: "BazaarWise India",
     description: "A customer segmentation and recommendation system using K-Means clustering, tailored for the Indian market.",

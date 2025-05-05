@@ -12,6 +12,7 @@ export interface Project {
   demoUrl?: string;
   githubUrl?: string;
   achievements?: string[];
+  publicationUrl?: string;
 }
 
 export interface Education {
