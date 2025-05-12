@@ -47,7 +47,7 @@ export default function Hero() {
           </motion.p>
           
           <motion.div 
-            className="flex gap-4 justify-center"
+            className="flex gap-4 justify-center flex-wrap"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9, duration: 0.8 }}
@@ -78,6 +78,62 @@ export default function Hero() {
                 <a href="#projects" className="relative overflow-hidden group">
                   <span className="absolute inset-0 bg-primary/10 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
                   <span className="relative z-10">View Projects</span>
+                </a>
+              </Button>
+            </motion.div>
+            
+            {/* Resume Download Button - Enhanced with multiple effects */}
+            <motion.div
+              whileHover={{ 
+                scale: 1.05,
+                transition: { type: "spring", stiffness: 400, damping: 10 }
+              }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <Button size="lg" variant="secondary" asChild className="relative overflow-hidden group">
+                <a 
+                  href="https://flowcv.com/resume/vk10aawgs0" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative overflow-hidden"
+                >
+                  {/* Animated gradient background */}
+                  <span className="absolute inset-0 bg-secondary/20"></span>
+                  <span className="absolute inset-0 bg-gradient-to-r from-primary/20 via-secondary/30 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                  
+                  {/* Rotating border effect */}
+                  <span className="absolute inset-0">
+                    <span className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-primary/50 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out"></span>
+                    <span className="absolute inset-y-0 right-0 w-[2px] bg-gradient-to-b from-transparent via-primary/50 to-transparent transform -translate-y-full group-hover:translate-y-full transition-transform duration-1000 ease-in-out delay-200"></span>
+                    <span className="absolute inset-x-0 bottom-0 h-[2px] bg-gradient-to-r from-transparent via-primary/50 to-transparent transform translate-x-full group-hover:-translate-x-full transition-transform duration-1000 ease-in-out delay-400"></span>
+                    <span className="absolute inset-y-0 left-0 w-[2px] bg-gradient-to-b from-transparent via-primary/50 to-transparent transform translate-y-full group-hover:-translate-y-full transition-transform duration-1000 ease-in-out delay-600"></span>
+                  </span>
+                  
+                  {/* Center content with animated icon */}
+                  <span className="relative z-10 flex items-center">
+                    <motion.div 
+                      initial={{ rotate: 0 }}
+                      animate={{ rotate: 0 }}
+                      whileHover={{ rotate: 360 }}
+                      transition={{ duration: 0.6, ease: "easeInOut" }}
+                      className="rounded-full p-1 mr-2 bg-secondary/30 group-hover:bg-primary/30 transition-colors duration-300"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                      </svg>
+                    </motion.div>
+                    
+                    {/* Text with letter animation */}
+                    <span className="font-medium relative">
+                      <span className="group-hover:text-transparent group-hover:animate-pulse transition-colors duration-300">Resume</span>
+                      <span className="absolute left-0 overflow-hidden whitespace-nowrap w-0 group-hover:w-full transition-all duration-500 ease-in-out bg-clip-text text-transparent bg-gradient-to-r from-primary via-foreground to-primary">
+                        Resume
+                      </span>
+                    </span>
+                  </span>
+                  
+                  {/* Bottom shine effect */}
+                  <span className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300"></span>
                 </a>
               </Button>
             </motion.div>
