@@ -12,15 +12,17 @@ export const skills: Skill[] = [
   { name: "PostgreSQL", category: "Databases" },
   { name: "FastAPI", category: "Backend" },
   { name: "Flask", category: "Backend" },
-  { name: "Django", category: "Backend" },
+  // { name: "Django", category: "Backend" },
   { name: "NumPy", category: "Machine Learning" },
   { name: "Pandas", category: "Machine Learning" },
   { name: "scikit-learn", category: "Machine Learning" },
   { name: "Git", category: "Tools" },
   { name: "GitHub", category: "Tools" },
+  { name: "Docker", category: "Tools" },
   { name: "AWS", category: "Cloud" },
   { name: "GCP", category: "Cloud" },
   { name: "Vercel", category: "Deployment" },
+  { name: "Render", category: "Deployment" }
 ];
 
 export const projects: Project[] = [
