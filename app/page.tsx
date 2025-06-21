@@ -9,7 +9,7 @@ import Contact from "@/components/sections/Contact";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import Blogs from "@/components/sections/Blogs";
-import CLI from "@/components/sections/CLI"; // Add this import
+import { FloatingCLIButton } from "@/components/ui/floating-cli-button"; // Add this import
 
 export default function Home() {
   return (
@@ -20,10 +20,10 @@ export default function Home() {
       <Skills />
       <Projects />
       <Experience />
-      <CLI /> {/* Add CLI Section */}
       <Blogs />
       <Contact />
       <Footer />
+      <FloatingCLIButton /> {/* Add the floating CLI button */}
     </main>
   );
 }

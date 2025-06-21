@@ -322,26 +322,12 @@ export function Terminal() {
   }, []);
 
   return (
-    <motion.div 
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      className="bg-gray-900 text-green-400 p-6 rounded-lg font-mono text-sm max-w-4xl mx-auto h-[500px] flex flex-col"
-      onClick={() => inputRef.current?.focus()}
-    >
-      {/* Terminal Header */}
-      <div className="flex items-center mb-4">
-        <div className="flex space-x-2">
-          <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-          <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-          <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-        </div>
-        {/* <div className="ml-4 text-gray-300">dhiraj@portfolio:~</div> */}
-      </div>
-      
-      {/* Terminal Content - Scrollable */}
+    <div className="h-full flex flex-col bg-gray-900 text-green-400 font-mono text-sm">
+      {/* Terminal Content - Removed extra padding */}
       <div 
         ref={historyRef}
-        className="flex-1 overflow-y-auto space-y-1 scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-800"
+        className="flex-1 p-2 overflow-y-auto space-y-1 scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-800"
+        onClick={() => inputRef.current?.focus()}
       >
         {/* History */}
         {history.map((line, i) => (
@@ -350,7 +336,7 @@ export function Terminal() {
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.1 }}
-            className="leading-relaxed"
+            className="leading-tight"
           >
             {line}
           </motion.div>
@@ -389,6 +375,6 @@ export function Terminal() {
           </motion.span>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
