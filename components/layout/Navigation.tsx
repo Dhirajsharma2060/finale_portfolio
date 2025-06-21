@@ -10,6 +10,7 @@ const navItems = [
 	{ name: "Skills", href: "/#skills" }, // Link to the Skills section
 	{ name: "Projects", href: "/#projects" }, // Link to the Projects section
 	{ name: "Experience", href: "/#experience" }, // Link to the Experience section
+	{ name: "Terminal", href: "/#cli" }, // Add this line
 	{ name: "Blogs", href: "/#blogs" }, // Link to the Blogs section
 	{ name: "Contact", href: "/#contact" }, // Link to the Contact section
 ];
