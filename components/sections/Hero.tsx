@@ -43,7 +43,7 @@ export default function Hero() {
               transition: { duration: 0.3 } 
             }}
           >
-            Computer Engineering Student & Aspiring Developer
+            Backend & Software Developer | Passionate about Go, Python, and scalable backend systems
           </motion.p>
           
           <motion.div 

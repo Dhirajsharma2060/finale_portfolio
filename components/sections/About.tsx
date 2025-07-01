@@ -23,10 +23,11 @@ export default function About() {
           <h2 className="text-3xl font-bold text-center mb-8">About Me</h2>
           <div className="max-w-3xl mx-auto text-center mb-12">
             <p className="text-lg text-muted-foreground">
-              Eager and driven Computer Engineering student at the University of Mumbai, 
-              currently advancing through the final year. Passionate about bridging 
-              theoretical concepts with real-world applications, with a strong understanding 
-              of computer science fundamentals and programming languages.
+              Graduated in Computer Engineering from the University of Mumbai with expertise
+              in building scalable, user-centric applications. Proficient in modern web technologies,
+              full-stack development, and AI-driven solutions. Possess strong foundations in system
+              design, algorithms, and database architecture. Driven by continuous learning and
+              solving real-world problems through innovative technology solutions.
             </p>
           </div>
 
