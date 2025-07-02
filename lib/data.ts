@@ -103,7 +103,7 @@ export const projects: Project[] = [
     title: "HTTP Server with File Handling",
     description: "A lightweight multi-threaded HTTP server supporting GET and POST requests, including file uploads and retrieval.",
     technologies: ["Python", "Socket Programming", "Multithreading", "Gzip Compression", "Filesystem Operations"],
-    githubUrl: "https://github.com/yourusername/http-server",
+    githubUrl: "https://github.com/Dhirajsharma2060/codecrafters-http-server-python",
     // demoUrl: "N/A" // Update if a live demo is available
     achievements: [
       "Implemented multi-threaded HTTP server handling 1,000+ concurrent connections",
